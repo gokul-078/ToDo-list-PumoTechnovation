@@ -53,8 +53,8 @@ ul {
 li {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 10px;
+  gap: 2px;
+  padding: 5px;
 }
 
 li button {

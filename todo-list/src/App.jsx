@@ -21,7 +21,7 @@ function App() {
     if (!inputValue.trim()) return;
     
     const newItem = {
-      id: Math.floor(Math.random()*10),
+      id: Date.now(),
       text: inputValue,
       completed: false
     };
