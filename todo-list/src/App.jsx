@@ -31,7 +31,7 @@ function App() {
   }
 
   const toggleComplete = (id) => {
-    setItems(items.map(item => 
+    setItems(items.map((item) => 
       item.id === id ? { ...item, completed: !item.completed } : item
     ));
   }
